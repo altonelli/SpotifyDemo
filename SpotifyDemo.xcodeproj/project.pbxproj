@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E203A8D1D74B93100D0490C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9E203A8C1D74B93100D0490C /* .gitignore */; };
 		9E3095A51D41497C00D9920A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3095A41D41497C00D9920A /* main.m */; };
 		9E3095A81D41497C00D9920A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3095A71D41497C00D9920A /* AppDelegate.m */; };
 		9E3095AB1D41497C00D9920A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3095AA1D41497C00D9920A /* ViewController.m */; };
@@ -14,9 +15,15 @@
 		9E3095B11D41497C00D9920A /* SpotifyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E3095AF1D41497C00D9920A /* SpotifyDemo.xcdatamodeld */; };
 		9E3095B31D41497C00D9920A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3095B21D41497C00D9920A /* Assets.xcassets */; };
 		9E3095B61D41497C00D9920A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3095B41D41497C00D9920A /* LaunchScreen.storyboard */; };
+		9E3095C11D414EBC00D9920A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3095C01D414EBC00D9920A /* AVFoundation.framework */; };
+		9E3095C31D414ECC00D9920A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3095C21D414ECC00D9920A /* SystemConfiguration.framework */; };
+		9E3095C71D4151F100D9920A /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3095C61D4151F100D9920A /* Spotify.framework */; };
+		9E3095CA1D4187CF00D9920A /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3095C91D4187CF00D9920A /* backdrop.png */; };
+		9E3095CD1D418BA500D9920A /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3095CC1D418BA500D9920A /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E203A8C1D74B93100D0490C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9E3095A01D41497C00D9920A /* SpotifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3095A41D41497C00D9920A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E3095A61D41497C00D9920A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +35,13 @@
 		9E3095B21D41497C00D9920A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3095B51D41497C00D9920A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3095B71D41497C00D9920A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3095C01D414EBC00D9920A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9E3095C21D414ECC00D9920A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9E3095C61D4151F100D9920A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		9E3095C81D4185F100D9920A /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		9E3095C91D4187CF00D9920A /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
+		9E3095CB1D418BA500D9920A /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		9E3095CC1D418BA500D9920A /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3095C31D414ECC00D9920A /* SystemConfiguration.framework in Frameworks */,
+				9E3095C71D4151F100D9920A /* Spotify.framework in Frameworks */,
+				9E3095C11D414EBC00D9920A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +61,10 @@
 		9E3095971D41497B00D9920A = {
 			isa = PBXGroup;
 			children = (
+				9E203A8C1D74B93100D0490C /* .gitignore */,
 				9E3095A21D41497C00D9920A /* SpotifyDemo */,
 				9E3095A11D41497C00D9920A /* Products */,
+				9E3095BF1D414B3800D9920A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +79,13 @@
 		9E3095A21D41497C00D9920A /* SpotifyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E3095C81D4185F100D9920A /* Config.h */,
 				9E3095A61D41497C00D9920A /* AppDelegate.h */,
 				9E3095A71D41497C00D9920A /* AppDelegate.m */,
 				9E3095A91D41497C00D9920A /* ViewController.h */,
 				9E3095AA1D41497C00D9920A /* ViewController.m */,
+				9E3095CB1D418BA500D9920A /* LoginController.h */,
+				9E3095CC1D418BA500D9920A /* LoginController.m */,
 				9E3095AC1D41497C00D9920A /* Main.storyboard */,
 				9E3095B21D41497C00D9920A /* Assets.xcassets */,
 				9E3095B41D41497C00D9920A /* LaunchScreen.storyboard */,
@@ -77,9 +99,20 @@
 		9E3095A31D41497C00D9920A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E3095C91D4187CF00D9920A /* backdrop.png */,
 				9E3095A41D41497C00D9920A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E3095BF1D414B3800D9920A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E3095C61D4151F100D9920A /* Spotify.framework */,
+				9E3095C21D414ECC00D9920A /* SystemConfiguration.framework */,
+				9E3095C01D414EBC00D9920A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E203A8D1D74B93100D0490C /* .gitignore in Resources */,
 				9E3095B61D41497C00D9920A /* LaunchScreen.storyboard in Resources */,
+				9E3095CA1D4187CF00D9920A /* backdrop.png in Resources */,
 				9E3095B31D41497C00D9920A /* Assets.xcassets in Resources */,
 				9E3095AE1D41497C00D9920A /* Main.storyboard in Resources */,
 			);
@@ -152,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3095CD1D418BA500D9920A /* LoginController.m in Sources */,
 				9E3095AB1D41497C00D9920A /* ViewController.m in Sources */,
 				9E3095A81D41497C00D9920A /* AppDelegate.m in Sources */,
 				9E3095A51D41497C00D9920A /* main.m in Sources */,
@@ -269,8 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-deploy-beta-17",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpotifyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altonelli.SpotifyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -280,8 +322,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-deploy-beta-17",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SpotifyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altonelli.SpotifyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -306,6 +354,7 @@
 				9E3095BC1D41497C00D9920A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
